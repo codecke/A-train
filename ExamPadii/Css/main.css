@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.padLeft{
+    padding: 0px 50px !important;
+}
+
+.navigbar{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    border-bottom: lavender 1px solid;
+    box-shadow: 0px 0px 5px lavender;
+    padding: 25px 0px;
+    
+    top: 0;
+}
+
+.navLinks{
+    float: left;
+    margin-top: -4px;
+}
+
+.linkForm{
+    background-color: rgb(216, 146, 216);
+    border-radius: 10px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-right: 10px;
+    transition: all .4s;
+}
+
+.linkForm:hover{
+    color: white;
+}
+
+.navAcc{
+    clear: right;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.navlink{
+    color: black;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.navheader{
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 55px !important;
+    text-decoration: underline;
+    text-decoration-color: rgb(216, 146, 216);
+    text-decoration-thickness: 3px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    place-items: center;
+}
+
+.oneSec{
+    width: 40%;
+}
+
+.Oneimg{
+    width: 100%;
+    height: 500px;
+}
+
+.welcomeText{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.secondSec{
+    width: 70%;
+    margin: 0px;
+}
+
+.Secp{
+    line-height: 1.5;
+}
+
+.purpleSec{
+    background-color: rgb(216, 146, 216);
+    height: fit-content;
+    padding: 100px 40px 60px 40px;
+    margin-top: -80px;
+}
+
+.thirdSec{
+    margin: 30px 0px;
+    text-align: center;
+    padding: 10px 40px;
+}
+
+.btn{
+    margin: 25px 0px;
+    background-color: rgb(216, 146, 216);
+    border: 0px;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn >a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover{
+    opacity: .7;
+}
+
+.topText{
+    margin: 30px 0px 0px 0px;
+}
+
+.selectionText{
+    font-weight: 500;
+}
+
+.selectionContainer{
+    margin: 50px 0px;
+    height: fit-content;
+    padding: 40px 100px;
+    background-color: whitesmoke;
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    box-shadow: 0px 0px 3px lavender;
+}
+
+.subImg{
+    height: 80px;
+    width: 80px;
+    margin:  0px 20px 0px 0px;
+}
+
+.subRow{
+    height: 120px;
+}
+
+.subName{
+    margin-right: 50px;
+    font-weight: normal;
+}
+
+.btnExamSelection{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(216, 146, 216);
+    background-color: white;
+    border-width: 1px;
+}
+
+.btnExamSelection:hover{
+    background-color: rgb(216, 146, 216);
+    border-width: 1px;
+    color: white;
+}
+
+.aboutUsHead{
+    margin: 30px 0px;
+}
+
+.aboutUsHead > h1, .aboutUsHead > p{
+    font-weight: 400;
+}
+
+.aboutUscontainer{
+    height: fit-content;
+    width: 100%;
+    padding: 0px 0px 30px 0px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4.5s;
+    animation-name: fade;
+    animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    } 
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    } 
+    to {
+        opacity: 1
+    }
+}
+
+.sliderBody{
+    display: flex;
+}
+
+.eachDev{
+    height: fit-content;
+    margin: 40px 0px 10px 0px;
+    text-align: center;
+}
+
+.devImgDiv{
+    width: 100vw;
+}
+
+.devImg{
+    height: 200px;
+    width: 175px;
+}
+
+.devDetails{
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+.devName{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    margin: 0px 0px 0px 0px;
+}
+
+.devStack{
+    color: #686666;
+    margin: 0px 0px 10px 0px;
+}
+
+.socialIcons i{
+    transition: all .5s;
+    font-size: 25px;
+    padding: 0px 20px;
+    color: #686666;
+}
+
+.socialIcons i:hover{
+    transform: scale(1.5);
+}
+
+.slider-dots{
+    text-align: center;
+    margin: 10px 0px;
+    clear: left;
+}
+
+.dots{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 0px;
+    margin: 5px;
+}
+
+.dots:hover, .active-btn{
+    background-color: rgb(216, 146, 216);
+}
+
+.formBody{
+    background-image: url('../media/img/alissa-de-leva-bZ_RkRKE0Po-unsplash.jpg');
+    background-size: cover;
+}
+
+.loginForm{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    height: 700px;
+}
+
+.formFieldset{
+    padding: 40px;
+    background-color: whitesmoke;
+    border-width: 0px;
+    border-radius: 1px;
+}
+
+.formHeader{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(216, 146, 216);
+    text-decoration-thickness: 3.5px;
+}
+
+.inputPass{
+    margin-right: 14.5rem;
+}
+
+.inputMail{
+    margin-right: 16rem;
+}
+
+.inputForm{
+    height: 2rem;
+    width: 17rem;
+    border-color: rgb(216, 146, 216);
+    border-style: groove;
+    border-radius: 5px;
+}
+
+.inputForm:focus-visible{
+    border-color: rgb(216, 146, 216);
+}
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding-top: 10px;
+    min-width: 50px;
+    text-align: center;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 0px 0px 0px 40px;
+    height: 40px;
+}
+
+.btnForm, .btnCancel{
+    height: 2.5rem;
+    width: 5.5rem;
+    border-radius: 5px;
+    margin: 1rem 0 1rem;
+}
+
+.btnForm{
+    background-color: rgb(216, 146, 216);
+    border-style: none;
+    color: white;
+}
+
+.btnCancel{
+    background-color: white;
+    color: black;
+    border-style: thin !important;
+    border-color: rgb(216, 146, 216);
+}
+
+.btnCancel a{
+    color: black;
+    text-decoration: none;
+}
+
+.btnForm:hover{
+    background-color: rgb(224, 195, 224);
+    border: thick;
+}
+
+.btnForm a{
+    text-decoration: none;
+}
+
+.regForm{
+    margin: 7rem 0rem 7rem 0rem;
+    padding: 2rem 0 2rem;
+    background-color: whitesmoke;
+    height: max-content;
+    width: 40rem;
+}
+
+.regIcon{
+    padding: 16px 0px 0px 43px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.regInput{
+    height: 40px;
+    width: 17rem;
+    border-color: rgb(216, 146, 216);
+    border-style: groove;
+    border-radius: 5px;
+    margin: 5px 0px 5px 30px;
+}
+
+select.regSelect{
+    border-color: rgb(216, 146, 216);
+    width: fit-content;
+    height: 2rem;
+    margin: 0 5px 0 5px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.hide{
+    display: none !important;
+}
+
+.examContainer{
+    background-color: whitesmoke;
+    margin: 20px 20px 15px 20px;
+    padding: 30px 20px 10px 20px;
+    border-radius: 5px;
+    min-height: 270px;
+    height: fit-content;
+}
+
+.qNo{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.qNo::after{
+    content: '. ';
+}
+
+.jumpTo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px 20px 20px;
+}
+
+.answered{
+    box-shadow: 0px 0px 2px rgb(129 222 252) !important;
+    border: 1px solid lavender !important;
+    background: rgb(129 222 252) !important;
+    color: white !important;
+}
+
+.qNoBtn {
+    height: 35px;
+    width: 35px;
+    margin: 5px 5px;
+    box-shadow: 0px 0px 2px rgb(216 146 216);
+    border: 1px solid navajowhite;
+    background: white;
+    color: black;
+    transition: all .5s;
+}
+
+.qNoBtn:hover {
+    background-color: rgb(216 146 216);
+    border: 1px solid rgb(216 146 216);
+}
+
+.eForm{
+    margin: 15px 0px 0px 0px;
+}
+
+.examRadio{
+    margin: 0px 0px 10px 0px;
+}
+
+.btns{
+    width: 100%;
+    place-content: flex-end;
+}
+
+.examA{
+    padding: 0px 30px 0px 0px;
+}
+
+.examA:hover{
+    cursor: pointer;
+}
+
+#preloader{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    min-height: 600px;
+}
+
+.sExam{
+    padding: 10px;
+    box-shadow: 0px 0px 2px rgb(216 146 216);
+    border: 1px solid rgb(216, 146, 216);
+    background: rgb(216, 146, 216);
+    color: white;
+    float: right;
+    margin-right: 50px;
+}
+
+.sExam:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+.timer{
+    place-content: flex-end;
+    margin: 10px 0px 0px 0px;
+}
+
+.timerText{
+    font-size: 25px;
+    font-weight: 300;
+    float: right;
+    margin: 0px 40px 0px 0px;
+}
+
+.hurryUp{
+    animation-name: hurry;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color: red;
+}
+
+@keyframes hurry{
+    0%{
+        transform: scale(1);
+    } 50% {
+        transform: scale(1.2);
+    } 100% {
+        transform: scale(1);
+    }
+}
+
+.progress-8 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-mask: linear-gradient(0deg,#000 55%,#0000 0) bottom/100% 18.18%;
+    background: linear-gradient( rgb(216, 146, 216) 0 0) bottom/100% 0% no-repeat #ddd;
+    animation: p8 2s infinite steps(7);
+}
+
+@keyframes p8 {
+    100% {background-size:100% 115%}
+}
+
+
+.historyMainText{
+    margin: 25px 0px;
+}
+
+.historyCard{
+    width: 60vw;
+    margin: 10px 0px 20px 0px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: rgb(216, 146, 216);
+    padding: 1rem 0;
+    box-shadow: rgba(83, 83, 83, 0.295) 0px 5px 0px 3px;
+}
+ 
+.historySubject{
+    text-transform: capitalize;
+    float: left; 
+    padding-left: 2rem;
+    text-decoration: underline 5px rgb(216, 146, 216);
+}
+
+.historyDate{
+    float: right; 
+    padding-right: 2rem;
+}
+
+.historyallScore{
+    display: flex;
+    place-content: center;
+}
+
+.hiScore{
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+.historyNo{
+    color: rgb(250, 126, 126);
+}
+
+.AIsuggest{
+    margin: 0px 0px 10px 0px;
+    font-weight: 300;
+}
+
+.takeExam{
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 146, 216);
+    background-color: white;
+    transition: .2s all;
+}
+
+.takeExam:hover{
+    background-color: rgb(216, 146, 216) !important;
+    color: white;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    place-content: center;
+    place-items: center;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}

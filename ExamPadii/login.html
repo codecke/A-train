@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="./css/main.css">
+        <title>ExamPadii | Login Page</title>
+    </head>
+    <body class="formBody">
+
+        <center>
+            <div class="loginForm">
+                <form id="logInForm">
+                    <fieldset class="formFieldset" id="formFieldset" disabled="true">
+                        
+                        <h4 class="formHeader">ExamPadii</h4>
+
+                        <span class="input-icons">
+                            <label for="email" class="inputMail">E-mail: </label><br>
+                            <i class="fa fa-envelope icon" style="color: rgb(216, 146, 216);"></i>
+                            <input name="emailInput" class="inputForm input-field" type="email" placeholder="example@gmail.com" required> <br><br>
+                        </span>
+
+                        <!-- Make this thing on focus to remain pink -->
+
+                        <span class="input-icons" style="padding-bottom: 20rem;">
+                            <label for="password" class="inputPass">Password: </label><br>
+                            <i class="fa fa-lock icon" style="color: rgb(216, 146, 216);"></i>
+                            <input name="passwordInput" class="inputForm input-field" type="password" placeholder="********" required> <br>
+                        </span>
+
+                        <div class="footElements">
+                            <button class="btnCancel"><a href="index.html">Go Back</a></button>
+                            <button class="btnForm" type="submit">Login</button> <br>
+                            Don't have an account? <a href="register.html" style="text-decoration: none;">Register now</a>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+        </center>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+
+        <!-- Personal Js  #### Has to come last or at least after firebase -->
+        <script src="./Js/script.js"></script>
+
+    </body>
+</html>
